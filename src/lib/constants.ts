@@ -1,5 +1,6 @@
 import TriviaDancePartyLogo from '../../public/images/triviadanceparty-logo.png';
 import GrandlinedleLogo from '../../public/images/grandlinedle-logo.png';
+import LittlePipelinesLogo from '../../public/images/littlepipelines-logo.png';
 
 export const NAV_LINKS = [
 	{ href: '/projects', label: 'Projects' },
@@ -20,5 +21,11 @@ export const PROJECTS = [
 			'A site similar to wordle but instead of guessing words, you guess todays character from the anime One Piece.',
 		link: 'https://grandlinedle.com',
 		image: GrandlinedleLogo,
+	},
+	{
+		title: 'Little Pipelines',
+		description:
+			'Code learning platform that mirrors what can be expected within a professional setting. Learners will engange in PRs that will enforce their ability to work with others and also help cement their own knowledge of the material.',
+		image: LittlePipelinesLogo,
 	},
 ];
