@@ -1,10 +1,9 @@
-import Image from 'next/image';
 import MaxWidthWrapper from '@/components/common/MaxWidthWrapper';
-import AboutImage from '../../../public/images/about-image.png';
+import AboutImage from '@/lib/svgs/AboutImage';
 
 const About = () => (
 	<MaxWidthWrapper className='flex items-center mt-2 flex-col gap-y-4'>
-		<Image src={AboutImage} className='w-64' alt='About page image' />
+		<AboutImage />
 		<h1 className='font-bold text-5xl sm:text-6xl text-center'>About Me</h1>
 		<div className='sm:text-xl font-light text-left max-w-screen-md space-y-3'>
 			<p>
